@@ -1,0 +1,125 @@
+.color-twitter {
+  color: var(--twitter);
+  background: var(--twitter-contrast);
+
+  &-inverse {
+    color: var(--twitter-contrast);
+    background: var(--twitter);
+  }
+
+  &-color {
+    color: var(--twitter);
+  }
+
+  &-background {
+    color: var(--twitter);
+  }
+}
+
+.color-facebook {
+  color: var(--facebook);
+  background: var(--facebook-contrast);
+
+  &-inverse {
+    color: var(--facebook-contrast);
+    background: var(--facebook);
+  }
+
+  &-color {
+    color: var(--facebook);
+  }
+
+  &-background {
+    color: var(--facebook);
+  }
+}
+
+.color-youtube {
+  color: var(--youtube);
+  background: var(--youtube-contrast);
+
+  &-inverse {
+    color: var(--youtube-contrast);
+    background: var(--youtube);
+  }
+
+  &-color {
+    color: var(--youtube);
+  }
+
+  &-background {
+    color: var(--youtube);
+  }
+}
+
+.color-google {
+  color: var(--google);
+  background: var(--google-contrast);
+
+  &-inverse {
+    color: var(--google-contrast);
+    background: var(--google);
+  }
+
+  &-color {
+    color: var(--google);
+  }
+
+  &-background {
+    color: var(--google);
+  }
+}
+
+.color-vimeo {
+  color: var(--vimeo);
+  background: var(--vimeo-contrast);
+
+  &-inverse {
+    color: var(--vimeo-contrast);
+    background: var(--vimeo);
+  }
+
+  &-color {
+    color: var(--vimeo);
+  }
+
+  &-background {
+    color: var(--vimeo);
+  }
+}
+
+.color-rss {
+  color: var(--rss);
+  background: var(--rss-contrast);
+
+  &-inverse {
+    color: var(--rss-contrast);
+    background: var(--rss);
+  }
+
+  &-color {
+    color: var(--rss);
+  }
+
+  &-background {
+    color: var(--rss);
+  }
+}
+
+.color-pinterest {
+  color: var(--pinterest);
+  background: var(--pinterest-contrast);
+
+  &-inverse {
+    color: var(--pinterest-contrast);
+    background: var(--pinterest);
+  }
+
+  &-color {
+    color: var(--pinterest);
+  }
+
+  &-background {
+    color: var(--pinterest);
+  }
+}

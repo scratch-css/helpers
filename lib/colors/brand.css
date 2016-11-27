@@ -1,0 +1,89 @@
+.primary {
+  color: var(--primary);
+  background: var(--primary-contrast);
+
+  &-inverse {
+    color: var(--primary-contrast);
+    background: var(--primary);
+  }
+
+  &-color {
+    color: var(--primary);
+  }
+
+  &-background {
+    color: var(--primary);
+  }
+}
+
+.secondary {
+  color: var(--secondary);
+  background: var(--secondary-contrast);
+
+  &-inverse {
+    color: var(--secondary-contrast);
+    background: var(--secondary);
+  }
+
+  &-color {
+    color: var(--secondary);
+  }
+
+  &-background {
+    color: var(--secondary);
+  }
+}
+
+.tertiary {
+  color: var(--tertiary);
+  background: var(--tertiary-contrast);
+
+  &-inverse {
+    color: var(--tertiary-contrast);
+    background: var(--tertiary);
+  }
+
+  &-color {
+    color: var(--tertiary);
+  }
+
+  &-background {
+    color: var(--tertiary);
+  }
+}
+
+.quaternary {
+  color: var(--quaternary);
+  background: var(--quaternary-contrast);
+
+  &-inverse {
+    color: var(--quaternary-contrast);
+    background: var(--quaternary);
+  }
+
+  &-color {
+    color: var(--quaternary);
+  }
+
+  &-background {
+    color: var(--quaternary);
+  }
+}
+
+.quinary {
+  color: var(--quinary);
+  background: var(--quinary-contrast);
+
+  &-inverse {
+    color: var(--quinary-contrast);
+    background: var(--quinary);
+  }
+
+  &-color {
+    color: var(--quinary);
+  }
+
+  &-background {
+    color: var(--quinary);
+  }
+}

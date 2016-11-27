@@ -1,0 +1,71 @@
+.color-success {
+  color: var(--success);
+  background: var(--success-contrast);
+
+  &-inverse {
+    color: var(--success-contrast);
+    background: var(--success);
+  }
+
+  &-color {
+    color: var(--success);
+  }
+
+  &-background {
+    color: var(--success);
+  }
+}
+
+.color-info {
+  color: var(--info);
+  background: var(--info-contrast);
+
+  &-inverse {
+    color: var(--info-contrast);
+    background: var(--info);
+  }
+
+  &-color {
+    color: var(--info);
+  }
+
+  &-background {
+    color: var(--info);
+  }
+}
+
+.color-warning {
+  color: var(--warning);
+  background: var(--warning-contrast);
+
+  &-inverse {
+    color: var(--warning-contrast);
+    background: var(--warning);
+  }
+
+  &-color {
+    color: var(--warning);
+  }
+
+  &-background {
+    color: var(--warning);
+  }
+}
+
+.color-error {
+  color: var(--error);
+  background: var(--error-contrast);
+
+  &-inverse {
+    color: var(--error-contrast);
+    background: var(--error);
+  }
+
+  &-color {
+    color: var(--error);
+  }
+
+  &-background {
+    color: var(--error);
+  }
+}
