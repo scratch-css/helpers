@@ -1,5 +1,8 @@
 /* transform */
+.font-transform-reset { text-transform: none }
 .font-uppercase { text-transform: uppercase }
+.font-lowercase { text-transform: lowercase }
+.font-capitalize { text-transform: capitalize }
 
 /* weight */
 .font-slim { font-weight: var(--font-slim) }
