@@ -4,6 +4,9 @@
 /* helper imports */
 @import './align.css';
 @import './flex.css';
-@import './headings.css';
 
+/* typography helpers */
+@import './typography/index.css';
+
+/* color helpers */
 @import './colors/index.css';

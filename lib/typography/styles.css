@@ -1,0 +1,10 @@
+/* transform */
+.font-uppercase { text-transform: uppercase }
+
+/* weight */
+.font-slim { font-weight: var(--font-slim) }
+.font-light { font-weight: var(--font-light) }
+.font-regular { font-weight: var(--font-regular) }
+.font-semibold { font-weight: var(--font-semibold) }
+.font-bold { font-weight: var(--font-bold) }
+.font-extrabold { font-weight: var(--font-extrabold) }
