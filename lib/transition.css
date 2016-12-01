@@ -1,0 +1,43 @@
+/* Transition duration */
+.transition {
+  transition-duration: var(--transition-duration);
+
+  &.shorter {
+    transition-duration: var(--transition-duration-shorter);
+  }
+
+  &.short {
+    transition-duration: var(--transition-duration-short);
+  }
+
+  &.long {
+    transition-duration: var(--transition-duration-long);
+  }
+
+  &.longer {
+    transition-duration: var(--transition-duration-longer);
+  }
+}
+
+/* Transition Delay */
+.transition.delay {
+  &-shorter {
+    transition-delay: var(--transition-duration-shorter);
+  }
+
+  &-short {
+    transition-delay: var(--transition-duration-short);
+  }
+
+  & {
+    transition-delay: var(--transition-duration);
+  }
+
+  &-long {
+    transition-delay: var(--transition-duration-long);
+  }
+
+  &-longer {
+    transition-delay: var(--transition-duration-longer);
+  }
+}

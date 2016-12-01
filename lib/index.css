@@ -4,6 +4,7 @@
 /* helper imports */
 @import './align.css';
 @import './flex.css';
+@import './transition.css';
 
 /* typography helpers */
 @import './typography/index.css';
