@@ -1,6 +1,3 @@
-/* scratch library */
-@import '../node_modules/@nikoloza/scratch/lib/config/index.css';
-
 /* helper imports */
 @import './align.css';
 @import './flex.css';
