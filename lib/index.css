@@ -2,6 +2,8 @@
 @import './align.css';
 @import './flex.css';
 @import './transition.css';
+@import './size.css';
+@import './position.css';
 
 /* typography helpers */
 @import './typography/index.css';
