@@ -1,8 +1,45 @@
 # Scratch Helpers
 Helper classes for scratch framework. They use Scratch as a base. It's purpose of using is to write them inline in HTML for just easy markup.
 
-### Color helper classes:
+## API reference:
 
+### Color helper classes:
+- **Brand colors**
+ - `.primary` - background is `--primary`, color is `--primary-inverse`
+   - `.primary-inverse` - background is `--primary-inverse`, color is `--primary`
+   - `.primary-color` - color is `--primary`
+   - `.primary-color-inverse` - color is `--primary-inverse`
+   - `.primary-background` - background is `--primary`
+   - `.primary-background-inverse` - background is `--primary-inverse`
+   
+ - `.secondary` - background is `--secondary`, color is `--secondary-inverse`
+   - `.secondary-inverse` - background is `--secondary-inverse`, color is `--secondary`
+   - `.secondary-color` - color is `--secondary`
+   - `.secondary-color-inverse` - color is `--secondary-inverse`
+   - `.secondary-background` - background is `--secondary`
+   - `.secondary-background-inverse` - background is `--secondary-inverse`
+   
+ - `.tertiary` - background is `--tertiary`, color is `--tertiary-inverse`
+   - `.tertiary-inverse` - background is `--tertiary-inverse`, color is `--tertiary`
+   - `.tertiary-color` - color is `--tertiary`
+   - `.tertiary-color-inverse` - color is `--tertiary-inverse`
+   - `.tertiary-background` - background is `--tertiary`
+   - `.tertiary-background-inverse` - background is `--tertiary-inverse`
+   
+ - `.quaternary` - background is `--quaternary`, color is `--quaternary-inverse`
+   - `.quaternary-inverse` - background is `--quaternary-inverse`, color is `--quaternary`
+   - `.quaternary-color` - color is `--quaternary`
+   - `.quaternary-color-inverse` - color is `--quaternary-inverse`
+   - `.quaternary-background` - background is `--quaternary`
+   - `.quaternary-background-inverse` - background is `--quaternary-inverse`
+   
+ - `.quinary` - background is `--quinary`, color is `--quinary-inverse`
+   - `.quinary-inverse` - background is `--quinary-inverse`, color is `--quinary`
+   - `.quinary-color` - color is `--quinary`
+   - `.quinary-color-inverse` - color is `--quinary-inverse`
+   - `.quinary-background` - background is `--quinary`
+   - `.quinary-background-inverse` - background is `--quinary-inverse`
+ 
 ### Typography helper classes:
 
 ### Other helper classes:
