@@ -48,7 +48,7 @@ For more complex UI components you can check [Scratch UI Library](https://github
       
       <section class="primary-background-inverse">
         <h1 class="text-uppercase">Title</h1>
-        <p class="margin-bottom-gutter">Lorem ipsum dolor sit amet</p>
+        <p class="margin-bottom-gutter-large">Lorem ipsum dolor sit amet</p>
         <a class="primary-color | text-underline">Learn More</a>
       </sectoon>
       
