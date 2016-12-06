@@ -24,7 +24,7 @@ Helper classes for scratch framework. They use Scratch as a base. It's purpose o
   - `.full-size` - full width and height dependent on parent container (`100%` with `vh` and `vw` fallbacks).
   - `.full-width` - full width of parent container.
   - `.full-height` - full height of parent container.
-  - `.full-viewport-size` - full width and height dependent document size (using `vh` and `vw` with percent fallbacks).
+  - `.full-viewport-size` - full width and height dependent on document size (using `vh` and `vw` with percent fallbacks).
   - `.full-viewport-width` - full width of document.
   - `.full-viewport-height` - full height of document.
 - **transition** - CSS `transition` shortcuts.
