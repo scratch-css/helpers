@@ -12,9 +12,9 @@ Helper classes for scratch framework. They use Scratch as a base. It's purpose o
   -  `align-center`
   -  `align-right`
 - **flex** - CSS `flexbox` shortcuts.
-  - `flex-center` - vertical and horizontal centering (affects on a child element).
-    - `.flex-center-x` - horizontal centering.
-    - `.flex-center-y` - vertical centering.
+  - `.flex-center` - vertical and horizontal centering (affects on a child element).
+  - `.flex-center-x` - horizontal centering.
+  - `.flex-center-y` - vertical centering.
   - `.flex-stretch` - stretches child elements.
 - **position** - CSS `position` shortcuts.
   - `.position-absolute`
