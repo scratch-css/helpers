@@ -41,3 +41,16 @@ Helper classes for scratch framework. They use Scratch as a base. It's purpose o
 
 
 For more complex UI components you can check [Scratch UI Library](https://github.com/scratch-css/ui).
+
+## Using examples:
+
+    <main class="flex-center | full-viewport-size | position-absolute">
+      
+      <section class="primary-background-inverse">
+        <h1 class="text-uppercase">Title</h1>
+        <p class="margin-bottom-gutter">Lorem ipsum dolor sit amet</p>
+        <a class="primary-color | text-underline">Learn More</a>
+      </sectoon>
+      
+    </main>
+      
