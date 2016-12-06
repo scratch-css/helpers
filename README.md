@@ -20,7 +20,7 @@ Helper classes for scratch framework. They use Scratch as a base. It's purpose o
   - `.position-absolute`
   - `.position-relative`
   - `.position-static`
-- **size** - shortcuts for easy sizing.
+- **sizing** - shortcuts for easy sizing.
   - `.full-size` - full width and height dependent on parent container (`100%` with `vh` and `vw` fallbacks).
   - `.full-width` - full width of parent container.
   - `.full-height` - full height of parent container.
