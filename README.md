@@ -40,4 +40,4 @@ Helper classes for scratch framework. They use Scratch as a base. It's purpose o
     - `.longer` - longest delay from the set.
 
 
-For more complex UI components you can check `Scratch UI Library`.
+For more complex UI components you can check [Scratch UI Library](https://github.com/scratch-css/ui).
