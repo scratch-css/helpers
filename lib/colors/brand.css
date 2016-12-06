@@ -2,17 +2,24 @@
   color: var(--primary);
   background: var(--primary-contrast);
 
-  &-inverse {
+  &-contrast {
     color: var(--primary-contrast);
     background: var(--primary);
   }
 
   &-color {
     color: var(--primary);
+
+    &-contrast {
+      color: var(--primary-contrast);
+    }
   }
 
   &-background {
-    color: var(--primary);
+    background: var(--primary);
+
+    &-contrast {
+      background: var(--primary-contrast);
   }
 }
 
@@ -20,17 +27,24 @@
   color: var(--secondary);
   background: var(--secondary-contrast);
 
-  &-inverse {
+  &-contrast {
     color: var(--secondary-contrast);
     background: var(--secondary);
   }
 
   &-color {
     color: var(--secondary);
+
+    &-contrast {
+      color: var(--secondary-contrast);
+    }
   }
 
   &-background {
-    color: var(--secondary);
+    background: var(--secondary);
+
+    &-contrast {
+      background: var(--secondary-contrast);
   }
 }
 
@@ -38,17 +52,24 @@
   color: var(--tertiary);
   background: var(--tertiary-contrast);
 
-  &-inverse {
+  &-contrast {
     color: var(--tertiary-contrast);
     background: var(--tertiary);
   }
 
   &-color {
     color: var(--tertiary);
+
+    &-contrast {
+      color: var(--tertiary-contrast);
+    }
   }
 
   &-background {
-    color: var(--tertiary);
+    background: var(--tertiary);
+
+    &-contrast {
+      background: var(--tertiary-contrast);
   }
 }
 
@@ -56,17 +77,24 @@
   color: var(--quaternary);
   background: var(--quaternary-contrast);
 
-  &-inverse {
+  &-contrast {
     color: var(--quaternary-contrast);
     background: var(--quaternary);
   }
 
   &-color {
     color: var(--quaternary);
+
+    &-contrast {
+      color: var(--quaternary-contrast);
+    }
   }
 
   &-background {
-    color: var(--quaternary);
+    background: var(--quaternary);
+
+    &-contrast {
+      background: var(--quaternary-contrast);
   }
 }
 
@@ -74,16 +102,23 @@
   color: var(--quinary);
   background: var(--quinary-contrast);
 
-  &-inverse {
+  &-contrast {
     color: var(--quinary-contrast);
     background: var(--quinary);
   }
 
   &-color {
     color: var(--quinary);
+
+    &-contrast {
+      color: var(--quinary-contrast);
+    }
   }
 
   &-background {
-    color: var(--quinary);
+    background: var(--quinary);
+
+    &-contrast {
+      background: var(--quinary-contrast);
   }
 }
