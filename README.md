@@ -34,10 +34,10 @@ Helper classes for scratch framework. They use Scratch as a base. It's purpose o
     - `.long` - long duration from the set.
     - `.longer` - longest duration from the set.
   - `.transition.delay` - default transition delay comes from Scratch config.
-    - `.shorter` - shortest delay from the set.
-    - `.short` - short delay from the set.
-    - `.long` - long delay from the set.
-    - `.longer` - longest delay from the set.
+    - `.delay-shorter` - shortest delay from the set.
+    - `.delay-short` - short delay from the set.
+    - `.delay-long` - long delay from the set.
+    - `.delay-longer` - longest delay from the set.
 
 
 For more complex UI components you can check [Scratch UI Library](https://github.com/scratch-css/ui).
