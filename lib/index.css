@@ -4,6 +4,7 @@
 @import './transition.css';
 @import './size.css';
 @import './position.css';
+@import './display.css';
 
 /* typography helpers */
 @import './typography/index.css';
