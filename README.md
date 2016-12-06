@@ -46,11 +46,11 @@ For more complex UI components you can check [Scratch UI Library](https://github
 
     <main class="flex-center | full-viewport-size | position-absolute">
       
-      <section class="primary-background-inverse">
+      <article class="primary-background-inverse">
         <h1 class="text-uppercase">Title</h1>
         <p class="margin-bottom-gutter-large">Lorem ipsum dolor sit amet</p>
         <a class="primary-color | text-underline">Learn More</a>
-      </sectoon>
+      </article>
       
     </main>
       
