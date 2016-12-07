@@ -160,7 +160,7 @@ Also, families can be divided by type, as they may have `serif`, `sans-serif` or
     - `.delay-longer`
 
 
-For more complex UI components you can check [Scratch UI Library](https://github.com/scratch-css/ui). For animations, check [Animations Library](https://github.com/scratch-css/animations).
+For more complex UI components you can check [Scratch UIkit library](https://github.com/scratch-css/ui). For animations, check [Animations library](https://github.com/scratch-css/animations).
 
 --
 
