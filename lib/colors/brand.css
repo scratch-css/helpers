@@ -20,6 +20,7 @@
 
     &-contrast {
       background: var(--primary-contrast);
+    }
   }
 }
 
@@ -45,6 +46,7 @@
 
     &-contrast {
       background: var(--secondary-contrast);
+    }
   }
 }
 
@@ -70,6 +72,7 @@
 
     &-contrast {
       background: var(--tertiary-contrast);
+    }
   }
 }
 
@@ -95,6 +98,7 @@
 
     &-contrast {
       background: var(--quaternary-contrast);
+    }
   }
 }
 
@@ -120,5 +124,6 @@
 
     &-contrast {
       background: var(--quinary-contrast);
+    }
   }
 }

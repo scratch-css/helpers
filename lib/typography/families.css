@@ -42,11 +42,5 @@
 
 /* Monospace */
 .font-family-monospace {
-  &-primary {
-    font-family: var(--font-family-monospace-primary);
-  }
-
-  &-secondary {
-    font-family: var(--font-family-monospace-secondary);
-  }
+  font-family: var(--font-family-monospace);
 }
