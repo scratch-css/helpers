@@ -45,7 +45,7 @@ Let's use `{color-name}` as a placeholder for this table. It can be on of those:
 
 For example, `{color-name}` is `primary`, `--primary` itself is green and contrast color for it - `--primary-contrast` is white. As we see in the table, We can use `.primary` class to apply white color on the green background. `.primary-contrast` to opposite, like green on white. `.primary-background` for applying only green background and etc.
 
-Don't get confused about color helpers starting with `.color-` prefix. As for only color apply it can repeat `color` word like `.color-facebook-color-inverse`. It's the same structure, just starts with that prefix.
+Don't get confused about color helpers starting with `.color-` prefix. As for only color usage, it can repeat `color` word like `.color-facebook-color-inverse`. It's the same structure, just starts with that prefix.
 
 --
 
@@ -156,7 +156,7 @@ Also, families can be divided by type, as they may have `serif`, `sans-serif` or
     - `.delay-longer`
 
 
-For more complex UI components you can check [Scratch UI Library](https://github.com/scratch-css/ui).
+For more complex UI components you can check [Scratch UI Library](https://github.com/scratch-css/ui). For animations, check [Animations Library](https://github.com/scratch-css/animations).
 
 --
 
