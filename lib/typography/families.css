@@ -1,0 +1,52 @@
+/* Font family priorities */
+.font-family {
+  &-primary {
+    font-family: var(--font-family-primary);
+  }
+
+  &-secondary {
+    font-family: var(--font-family-secondary);
+  }
+
+  &-tertiary {
+    font-family: var(--font-family-tertiary);
+  }
+
+  &-quaternary {
+    font-family: var(--font-family-quaternary);
+  }
+}
+
+/* Font family priorities by type */
+/* Sans Serif */
+.font-family-sans-serif {
+  &-primary {
+    font-family: var(--font-family-sans-serif-primary);
+  }
+
+  &-secondary {
+    font-family: var(--font-family-sans-serif-secondary);
+  }
+}
+
+/* Serif */
+.font-family-serif {
+  &-primary {
+    font-family: var(--font-family-serif-primary);
+  }
+
+  &-secondary {
+    font-family: var(--font-family-serif-secondary);
+  }
+}
+
+/* Monospace */
+.font-family-monospace {
+  &-primary {
+    font-family: var(--font-family-monospace-primary);
+  }
+
+  &-secondary {
+    font-family: var(--font-family-monospace-secondary);
+  }
+}
