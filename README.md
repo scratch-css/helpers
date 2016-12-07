@@ -113,11 +113,27 @@ Also, families can be divided by type, as they may have `serif`, `sans-serif` or
   - `.flex-center-x` - horizontal centering.
   - `.flex-center-y` - vertical centering.
   - `.flex-stretch` - stretches child elements.
+  - Directions
+    - `.flex-row`
+    - `.flex-row-reverse`
+    - `.flex-column`
+    - `.flex-column-reverse`
 
 - Position
   - `.position-absolute`
   - `.position-relative`
   - `.position-static`
+
+- Display
+  - `.display-flex`
+  - `.display-inline-flex`
+  - `.display-none`
+  - `.display-block`
+  - `.display-inline`
+  - `.display-inline-block`
+  - `.display-table`
+  - `.display-table-row`
+  - `.display-table-cell`
 
 - Sizing
   - `.full-size` - full width and height dependent on parent container (`100%` with `vh` and `vw` fallbacks).

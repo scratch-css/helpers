@@ -1,17 +1,11 @@
 .display {
-  &-none {
-    display: none;
-  }
-
-  &-block {
-    display: block;
-  }
-
-  &-inline {
-    display: inline;
-  }
-
-  &-inline-block {
-    display: inline-block;
-  }
+  &-flex { display: flex }
+  &-inline-flex { display: inline-flex }
+  &-none { display: none }
+  &-block { display: block }
+  &-inline { display: inline }
+  &-inline-block { display: inline-block }
+  &-table { display: table-row }
+  &-table-row { display: table-row }
+  &-table-cell { display: table-row  }
 }

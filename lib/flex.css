@@ -11,7 +11,29 @@
       justify-content: center;
     }
   }
+}
 
+/* direction */
+.flex {
+  &-row {
+    flex-direction: row;
+
+    &-reverse {
+      flex-direction: row-reverse;
+    }
+  }
+
+  &-column {
+    flex-direction: column;
+
+    &-reverse {
+      flex-direction: column-reverse;
+    }
+  }
+}
+
+/* alignitems */
+.flex {
   &-stretch {
     align-items: stretch;
   }
