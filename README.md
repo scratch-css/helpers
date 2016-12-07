@@ -32,7 +32,7 @@ Use `.color-` prefix for those, to not to be confused with naming conflicts.
 
 ##### Table reference:
 
-Let's use `{color-name}` as a placeholder for this table. It can be on of those:
+Let's use `{color-name}` as a placeholder for this table.
 
 | Name                                 | Color                      | Background                 |
 |---                                   |---                         |---                         |
