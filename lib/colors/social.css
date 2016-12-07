@@ -2,17 +2,25 @@
   color: var(--twitter);
   background: var(--twitter-contrast);
 
-  &-inverse {
+  &-contrast {
     color: var(--twitter-contrast);
     background: var(--twitter);
   }
 
   &-color {
     color: var(--twitter);
+
+    &-contrast {
+      color: var(--twitter-contrast);
+    }
   }
 
   &-background {
-    color: var(--twitter);
+    background: var(--twitter);
+
+    &-contrast {
+      background: var(--twitter);
+    }
   }
 }
 
@@ -20,17 +28,25 @@
   color: var(--facebook);
   background: var(--facebook-contrast);
 
-  &-inverse {
+  &-contrast {
     color: var(--facebook-contrast);
     background: var(--facebook);
   }
 
   &-color {
     color: var(--facebook);
+
+    &-contrast {
+      color: var(--facebook-contrast);
+    }
   }
 
   &-background {
-    color: var(--facebook);
+    background: var(--facebook);
+
+    &-contrast {
+      background: var(--facebook);
+    }
   }
 }
 
@@ -38,17 +54,25 @@
   color: var(--youtube);
   background: var(--youtube-contrast);
 
-  &-inverse {
+  &-contrast {
     color: var(--youtube-contrast);
     background: var(--youtube);
   }
 
   &-color {
     color: var(--youtube);
+
+    &-contrast {
+      color: var(--youtube-contrast);
+    }
   }
 
   &-background {
-    color: var(--youtube);
+    background: var(--youtube);
+
+    &-contrast {
+      background: var(--youtube);
+    }
   }
 }
 
@@ -56,17 +80,25 @@
   color: var(--google);
   background: var(--google-contrast);
 
-  &-inverse {
+  &-contrast {
     color: var(--google-contrast);
     background: var(--google);
   }
 
   &-color {
     color: var(--google);
+
+    &-contrast {
+      color: var(--google-contrast);
+    }
   }
 
   &-background {
-    color: var(--google);
+    background: var(--google);
+
+    &-contrast {
+      background: var(--google);
+    }
   }
 }
 
@@ -74,17 +106,25 @@
   color: var(--vimeo);
   background: var(--vimeo-contrast);
 
-  &-inverse {
+  &-contrast {
     color: var(--vimeo-contrast);
     background: var(--vimeo);
   }
 
   &-color {
     color: var(--vimeo);
+
+    &-contrast {
+      color: var(--vimeo-contrast);
+    }
   }
 
   &-background {
-    color: var(--vimeo);
+    background: var(--vimeo);
+
+    &-contrast {
+      background: var(--vimeo);
+    }
   }
 }
 
@@ -92,17 +132,25 @@
   color: var(--rss);
   background: var(--rss-contrast);
 
-  &-inverse {
+  &-contrast {
     color: var(--rss-contrast);
     background: var(--rss);
   }
 
   &-color {
     color: var(--rss);
+
+    &-contrast {
+      color: var(--rss-contrast);
+    }
   }
 
   &-background {
-    color: var(--rss);
+    background: var(--rss);
+
+    &-contrast {
+      background: var(--rss);
+    }
   }
 }
 
@@ -110,16 +158,24 @@
   color: var(--pinterest);
   background: var(--pinterest-contrast);
 
-  &-inverse {
+  &-contrast {
     color: var(--pinterest-contrast);
     background: var(--pinterest);
   }
 
   &-color {
     color: var(--pinterest);
+
+    &-contrast {
+      color: var(--pinterest-contrast);
+    }
   }
 
   &-background {
-    color: var(--pinterest);
+    background: var(--pinterest);
+
+    &-contrast {
+      background: var(--pinterest);
+    }
   }
 }

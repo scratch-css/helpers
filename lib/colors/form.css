@@ -9,10 +9,18 @@
 
   &-color {
     color: var(--success);
+
+    &-contrast {
+      color: var(--success);
+    }
   }
 
   &-background {
-    color: var(--success);
+    background: var(--success);
+
+    &-contrast {
+      background: var(--success);
+    }
   }
 }
 
@@ -27,10 +35,18 @@
 
   &-color {
     color: var(--info);
+
+    &-contrast {
+      color: var(--info);
+    }
   }
 
   &-background {
-    color: var(--info);
+    background: var(--info);
+
+    &-contrast {
+      background: var(--info);
+    }
   }
 }
 
@@ -45,10 +61,18 @@
 
   &-color {
     color: var(--warning);
+
+    &-contrast {
+      color: var(--warning);
+    }
   }
 
   &-background {
-    color: var(--warning);
+    background: var(--warning);
+
+    &-contrast {
+      background: var(--warning);
+    }
   }
 }
 
@@ -63,9 +87,17 @@
 
   &-color {
     color: var(--error);
+
+    &-contrast {
+      color: var(--error);
+    }
   }
 
   &-background {
-    color: var(--error);
+    background: var(--error);
+
+    &-contrast {
+      background: var(--error);
+    }
   }
 }

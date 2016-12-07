@@ -4,90 +4,155 @@ Helper classes for scratch framework. They use Scratch as a base. It's purpose o
 ## API reference:
 
 ### Color helper classes:
-- **Brand colors**
-  - `.primary` - background is `--primary`, color is `--primary-inverse`
-    - `.primary-inverse` - background is `--primary-inverse`, color is `--primary`
-    - `.primary-color` - color is `--primary`
-    - `.primary-color-inverse` - color is `--primary-inverse`
-    - `.primary-background` - background is `--primary`
-    - `.primary-background-inverse` - background is `--primary-inverse`
-   
-  - `.secondary` - background is `--secondary`, color is `--secondary-inverse`
-    - `.secondary-inverse` - background is `--secondary-inverse`, color is `--secondary`
-    - `.secondary-color` - color is `--secondary`
-    - `.secondary-color-inverse` - color is `--secondary-inverse`
-    - `.secondary-background` - background is `--secondary`
-    - `.secondary-background-inverse` - background is `--secondary-inverse`
-   
-  - `.tertiary` - background is `--tertiary`, color is `--tertiary-inverse`
-    - `.tertiary-inverse` - background is `--tertiary-inverse`, color is `--tertiary`
-    - `.tertiary-color` - color is `--tertiary`
-    - `.tertiary-color-inverse` - color is `--tertiary-inverse`
-    - `.tertiary-background` - background is `--tertiary`
-    - `.tertiary-background-inverse` - background is `--tertiary-inverse`
-   
-  - `.quaternary` - background is `--quaternary`, color is `--quaternary-inverse`
-    - `.quaternary-inverse` - background is `--quaternary-inverse`, color is `--quaternary`
-    - `.quaternary-color` - color is `--quaternary`
-    - `.quaternary-color-inverse` - color is `--quaternary-inverse`
-    - `.quaternary-background` - background is `--quaternary`
-    - `.quaternary-background-inverse` - background is `--quaternary-inverse`
-   
-  - `.quinary` - background is `--quinary`, color is `--quinary-inverse`
-    - `.quinary-inverse` - background is `--quinary-inverse`, color is `--quinary`
-    - `.quinary-color` - color is `--quinary`
-    - `.quinary-color-inverse` - color is `--quinary-inverse`
-    - `.quinary-background` - background is `--quinary`
-    - `.quinary-background-inverse` - background is `--quinary-inverse`
- 
+We can use them instead of `{color-name}` placeholder below, and we'll be able to use it inline in HTML to give color and background color to any element.
+
+##### Brand colors:
+- `.primary`
+- `.secondary`
+- `.tertiary`
+- `.quaternary`
+- `.quinary`
+
+##### State colors:
+- `.color-success`
+- `.color-warning`
+- `.color-info`
+- `.color-error`
+
+##### Social network colors:
+- `.color-facebook`
+- `.color-twitter`
+- `.color-google`
+- `.color-youtube`
+- `.color-vimeo`
+- `.color-rss`
+- `.color-pinterest`
+
+Use `.color-` prefix for those, to not to be confused with naming conflicts.
+
+##### Table reference:
+
+Let's use `{color-name}` as a placeholder for this table. It can be on of those:
+
+| Name                                 | Color                      | Background                 |
+|---                                   |---                         |---                         |
+| `.{color-name}`                      | `--{color-name}-inverse`   | `--{color-name}`           |
+| `.{color-name}-contrast`             | `--{color-name}`           | `--{color-name}-contrast`  |
+| `.{color-name}-color`                | `--{color-name}`           |                            |
+| `.{color-name}-color-contrast`       | `--{color-name}-contrast`  |                            |
+| `.{color-name}-background`           |                            | `--{color-name}`           |
+| `.{color-name}-background-contrast`  |                            | `--{color-name}-contrast`  |
+
+For example, `{color-name}` is `primary`, `--primary` itself is green and contrast color for it - `--primary-contrast` is white. As we see in the table, We can use `.primary` class to apply white color on the green background. `.primary-contrast` to opposite, like green on white. `.primary-background` for applying only green background and etc.
+
+Don't get confused about color helpers starting with `.color-` prefix. As for only color apply it can repeat `color` word like `.color-facebook-color-inverse`. It's the same structure, just starts with that prefix.
+
+--
+
 ### Typography helper classes:
 
-### Other helper classes:
+#### Families by priority
+- `.font-family-primary`
+- `.font-family-secondary`
+- `.font-family-tertiary`
+- `.font-family-quaternary`
 
-- **align** - CSS `text-align` shortcut.
+#### Families by type
+Also, families can be divided by type, as they may have `serif`, `sans-serif` or `monospace` options.
+
+- **Sans Serif**
+  - `.font-family-sans-serif-primary`
+  - `.font-family-sans-serif-secondary`
+
+- **Serif**
+  - `.font-family-serif-primary`
+  - `.font-family-serif-secondary`
+
+- **Monospace** *(using of this is very rare, so I don't think we need priorities)*
+  - `.font-family-monospace`
+
+#### Font sizes
+- `.font-size-h1`
+- `.font-size-h2`
+- `.font-size-h3`
+- `.font-size-h4`
+- `.font-size-h5`
+- `.font-size-h6`
+- `.font-size-h7`
+- `.font-size-h8`
+- `.font-size-h9`
+- `.font-size-h10`
+
+#### Font weight
+- `.font-slim`
+- `.font-light`
+- `.font-regular`
+- `.font-semibold`
+- `.font-bold`
+- `.font-extrabold`
+
+#### Text transform
+- `.text-transform-reset`
+- `.text-uppercase`
+- `.text-lowercase`
+- `.text-capitalize`
+
+`.text-` prefix applies here, since it just matches CSS naming.
+
+--
+
+### Other helper classes for CSS shortcuts:
+
+- Align
   -  `.align-left`
   -  `.align-center`
   -  `.align-right`
-- **flex** - CSS `flexbox` shortcuts.
+
+- Flexbox
   - `.flex-center` - vertical and horizontal centering (affects on a child element).
   - `.flex-center-x` - horizontal centering.
   - `.flex-center-y` - vertical centering.
   - `.flex-stretch` - stretches child elements.
-- **position** - CSS `position` shortcuts.
+
+- Position
   - `.position-absolute`
   - `.position-relative`
   - `.position-static`
-- **sizing** - shortcuts for easy sizing.
+
+- Sizing
   - `.full-size` - full width and height dependent on parent container (`100%` with `vh` and `vw` fallbacks).
-  - `.full-width` - full width of parent container.
-  - `.full-height` - full height of parent container.
+  - `.full-width`
+  - `.full-height`
   - `.full-viewport-size` - full width and height dependent on document size (using `vh` and `vw` with percent fallbacks).
-  - `.full-viewport-width` - full width of document.
-  - `.full-viewport-height` - full height of document.
-- **transition** - CSS `transition` shortcuts.
-  - `.transition` - default transition duration comes from Scratch config.
-    - `.shorter` - shortest duration from the set.
-    - `.short` - short duration from the set.
-    - `.long` - long duration from the set.
-    - `.longer` - longest duration from the set.
-  - `.transition.delay` - default transition delay comes from Scratch config.
-    - `.delay-shorter` - shortest delay from the set.
-    - `.delay-short` - short delay from the set.
-    - `.delay-long` - long delay from the set.
-    - `.delay-longer` - longest delay from the set.
+  - `.full-viewport-width`
+  - `.full-viewport-height`
+
+- Transition
+  - `.transition` - default duration, which is defined in Scratch config.
+    - `.shorter`
+    - `.short`
+    - `.long`
+    - `.longer`
+  - `.transition.delay` - default delay, which is defined in Scratch config.
+    - `.delay-shorter`
+    - `.delay-short`
+    - `.delay-long`
+    - `.delay-longer`
 
 
 For more complex UI components you can check [Scratch UI Library](https://github.com/scratch-css/ui).
 
-## Using examples:
+--
+
+### Using examples:
 
     <main class="flex-center | full-viewport-size | position-absolute">
-      
+
       <article class="primary-background-inverse">
         <h1 class="text-uppercase">Title</h1>
         <p class="margin-bottom-gutter-large">Lorem ipsum dolor sit amet</p>
         <a class="primary-color | text-underline">Learn More</a>
       </article>
-      
+
     </main>
-      
+
