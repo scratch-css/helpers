@@ -1,0 +1,161 @@
+.white {
+  color: var(--softgray);
+  background: white;
+  border-color: white;
+
+  &-color {
+    color: white;
+  }
+
+  &-background {
+    background: white;
+  }
+
+  &-border {
+    border-color: white;
+  }
+}
+
+.whitegray {
+  color: var(--softgray);
+  background: var(--whitegray);
+  border-color: var(--whitegray);
+
+  &-color {
+    color: var(--whitegray);
+  }
+
+  &-background {
+    background: var(--whitegray);
+  }
+
+  &-border {
+    border-color: var(--whitegray);
+  }
+}
+
+.lightengray {
+  color: var(--softgray);
+  background: var(--lightengray);
+  border-color: var(--lightengray);
+
+  &-color {
+    color: var(--lightengray);
+  }
+
+  &-background {
+    background: var(--lightengray);
+  }
+
+  &-border {
+    border-color: var(--lightengray);
+  }
+}
+
+.lightgray {
+  color: var(--whitegray);
+  background: var(--lightgray);
+  border-color: var(--lightgray);
+
+  &-color {
+    color: var(--lightgray);
+  }
+
+  &-background {
+    background: var(--lightgray);
+  }
+
+  &-border {
+    border-color: var(--lightgray);
+  }
+}
+
+.coldgray {
+  color: var(--whitegray);
+  background: var(--coldgray);
+  border-color: var(--coldgray);
+
+  &-color {
+    color: var(--coldgray);
+  }
+
+  &-background {
+    background: var(--coldgray);
+  }
+
+  &-border {
+    border-color: var(--coldgray);
+  }
+}
+
+.midgray {
+  color: var(--whitegray);
+  background: var(--midgray);
+  border-color: var(--midgray);
+
+  &-color {
+    color: var(--midgray);
+  }
+
+  &-background {
+    background: var(--midgray);
+  }
+
+  &-border {
+    border-color: var(--midgray);
+  }
+}
+
+.softgray {
+  color: var(--whitegray);
+  background: var(--softgray);
+  border-color: var(--softgray);
+
+  &-color {
+    color: var(--softgray);
+  }
+
+  &-background {
+    background: var(--softgray);
+  }
+
+  &-border {
+    border-color: var(--softgray);
+  }
+}
+
+.darkgray {
+  color: var(--whitegray);
+  background: var(--darkgray);
+  border-color: var(--darkgray);
+
+  &-color {
+    color: var(--darkgray);
+  }
+
+  &-background {
+    background: var(--darkgray);
+  }
+
+  &-border {
+    border-color: var(--darkgray);
+  }
+}
+
+.black {
+  color: var(--whitegray);
+  background: black;
+  border-color: black;
+
+  &-color {
+    color: black;
+  }
+
+  &-background {
+    background: black;
+  }
+
+  &-border {
+    border-color: black;
+  }
+}
