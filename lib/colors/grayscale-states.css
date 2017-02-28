@@ -1,0 +1,314 @@
+.white {
+  color: var(--softgray);
+  background: white;
+  border-color: white;
+
+  &:hover,
+  &:focus {
+    color: var(--softgray);
+    background: white;
+    border-color: white;
+  }
+
+  &-color {
+    &:hover,
+    &:focus {
+      color: white;
+      color: white;
+    }
+  }
+
+  &-background {
+    &:hover,
+    &:focus {
+      background: white;
+    }
+  }
+
+  &-border {
+    &:hover,
+    &:focus {
+      border-color: white;
+    }
+  }
+}
+
+.whitegray {
+  color: var(--softgray);
+  background: var(--whitegray);
+  border-color: var(--whitegray);
+
+  &:hover,
+  &:focus {
+    color: var(--softgray);
+    background: var(--whitegray);
+    border-color: var(--whitegray);
+  }
+
+  &-color {
+    &:hover,
+    &:focus {
+      color: var(--whitegray);
+      color: var(--whitegray);
+    }
+  }
+
+  &-background {
+    &:hover,
+    &:focus {
+      background: var(--whitegray);
+    }
+  }
+
+  &-border {
+    &:hover,
+    &:focus {
+      border-color: var(--whitegray);
+    }
+  }
+}
+
+.lightengray {
+  color: var(--softgray);
+  background: var(--lightengray);
+  border-color: var(--lightengray);
+
+  &:hover,
+  &:focus {
+    color: var(--softgray);
+    background: var(--lightengray);
+    border-color: var(--lightengray);
+  }
+
+  &-color {
+    &:hover,
+    &:focus {
+      color: var(--lightengray);
+      color: var(--lightengray);
+    }
+  }
+
+  &-background {
+    &:hover,
+    &:focus {
+      background: var(--lightengray);
+    }
+  }
+
+  &-border {
+    &:hover,
+    &:focus {
+      border-color: var(--lightengray);
+    }
+  }
+}
+
+.lightgray {
+  color: var(--whitegray);
+  background: var(--lightgray);
+  border-color: var(--lightgray);
+
+  &:hover,
+  &:focus {
+    color: var(--whitegray);
+    background: var(--lightgray);
+    border-color: var(--lightgray);
+  }
+
+  &-color {
+    &:hover,
+    &:focus {
+      color: var(--lightgray);
+      color: var(--lightgray);
+    }
+  }
+
+  &-background {
+    &:hover,
+    &:focus {
+      background: var(--lightgray);
+    }
+  }
+
+  &-border {
+    &:hover,
+    &:focus {
+      border-color: var(--lightgray);
+    }
+  }
+}
+
+.coldgray {
+  color: var(--whitegray);
+  background: var(--coldgray);
+  border-color: var(--coldgray);
+
+  &:hover,
+  &:focus {
+    color: var(--whitegray);
+    background: var(--coldgray);
+    border-color: var(--coldgray);
+  }
+
+  &-color {
+    &:hover,
+    &:focus {
+      color: var(--coldgray);
+      color: var(--coldgray);
+    }
+  }
+
+  &-background {
+    &:hover,
+    &:focus {
+      background: var(--coldgray);
+    }
+  }
+
+  &-border {
+    &:hover,
+    &:focus {
+      border-color: var(--coldgray);
+    }
+  }
+}
+
+.midgray {
+  color: var(--whitegray);
+  background: var(--midgray);
+  border-color: var(--midgray);
+
+  &:hover,
+  &:focus {
+    color: var(--whitegray);
+    background: var(--midgray);
+    border-color: var(--midgray);
+  }
+
+  &-color {
+    &:hover,
+    &:focus {
+      color: var(--midgray);
+      color: var(--midgray);
+    }
+  }
+
+  &-background {
+    &:hover,
+    &:focus {
+      background: var(--midgray);
+    }
+  }
+
+  &-border {
+    &:hover,
+    &:focus {
+      border-color: var(--midgray);
+    }
+  }
+}
+
+.softgray {
+  color: var(--whitegray);
+  background: var(--softgray);
+  border-color: var(--softgray);
+
+  &:hover,
+  &:focus {
+    color: var(--whitegray);
+    background: var(--softgray);
+    border-color: var(--softgray);
+  }
+
+  &-color {
+    &:hover,
+    &:focus {
+      color: var(--softgray);
+      color: var(--softgray);
+    }
+  }
+
+  &-background {
+    &:hover,
+    &:focus {
+      background: var(--softgray);
+    }
+  }
+
+  &-border {
+    &:hover,
+    &:focus {
+      border-color: var(--softgray);
+    }
+  }
+}
+
+.darkgray {
+  color: var(--whitegray);
+  background: var(--darkgray);
+  border-color: var(--darkgray);
+
+  &:hover,
+  &:focus {
+    color: var(--whitegray);
+    background: var(--darkgray);
+    border-color: var(--darkgray);
+  }
+
+  &-color {
+    &:hover,
+    &:focus {
+      color: var(--darkgray);
+      color: var(--darkgray);
+    }
+  }
+
+  &-background {
+    &:hover,
+    &:focus {
+      background: var(--darkgray);
+    }
+  }
+
+  &-border {
+    &:hover,
+    &:focus {
+      border-color: var(--darkgray);
+    }
+  }
+}
+
+.black {
+  color: var(--whitegray);
+  background: black;
+  border-color: black;
+
+  &:hover,
+  &:focus {
+    color: var(--whitegray);
+    background: black;
+    border-color: black;
+  }
+
+  &-color {
+    &:hover,
+    &:focus {
+      color: black;
+      color: black;
+    }
+  }
+
+  &-background {
+    &:hover,
+    &:focus {
+      background: black;
+    }
+  }
+
+  &-border {
+    &:hover,
+    &:focus {
+      border-color: black;
+    }
+  }
+}
