@@ -1,0 +1,401 @@
+.interactive {
+  &.primary {
+    &:hover {
+      color: var(--primary-hover);
+      background: var(--primary-contrast-hover);
+      border-color: var(--primary-hover);
+    }
+    &:focus {
+      color: var(--primary-hover);
+      background: var(--primary-contrast-hover);
+      border-color: var(--primary-focus);
+    }
+
+    &-color {
+      &:hover {
+        color: var(--primary-hover);
+      }
+      &:focus {
+        color: var(--primary-focus);
+      }
+    }
+
+    &-background {
+      &:hover {
+        background: var(--primary-hover);
+      }
+      &:focus {
+        background: var(--primary-hover);
+      }
+    }
+
+    &-border {
+      &:hover {
+        border-color: var(--primary-hover);
+      }
+      &:focus {
+        border-color: var(--primary-hover);
+      }
+    }
+
+    &-contrast {
+      &:hover {
+        color: var(--primary-contrast-hover);
+        background: var(--primary-hover);
+        border-color: var(--primary-focus);
+      }
+      &:focus {
+        color: var(--primary-contrast-hover);
+        background: var(--primary-hover);
+        border-color: var(--primary-hover);
+      }
+
+      &-color {
+        &:hover {
+          color: var(--primary-contrast-hover);
+        }
+        &:focus {
+          color: var(--primary-contrast-focus);
+        }
+      }
+
+      &-background {
+        &:hover {
+          background: var(--primary-contrast-hover);
+        }
+        &:focus {
+          background: var(--primary-contrast-hover);
+        }
+      }
+
+      &-border {
+        &:hover {
+          border-color: var(--primary-contrast-hover);
+        }
+        &:hover {
+          border-color: var(--primary-contrast-focus);
+        }
+      }
+    }
+  }
+
+  &.secondary {
+    &:hover {
+      color: var(--secondary-hover);
+      background: var(--secondary-contrast-hover);
+      border-color: var(--secondary-hover);
+    }
+    &:focus {
+      color: var(--secondary-hover);
+      background: var(--secondary-contrast-hover);
+      border-color: var(--secondary-focus);
+    }
+
+    &-color {
+      &:hover {
+        color: var(--secondary-hover);
+      }
+      &:focus {
+        color: var(--secondary-focus);
+      }
+    }
+
+    &-background {
+      &:hover {
+        background: var(--secondary-hover);
+      }
+      &:focus {
+        background: var(--secondary-hover);
+      }
+    }
+
+    &-border {
+      &:hover {
+        border-color: var(--secondary-hover);
+      }
+      &:focus {
+        border-color: var(--secondary-hover);
+      }
+    }
+
+    &-contrast {
+      &:hover {
+        color: var(--secondary-contrast-hover);
+        background: var(--secondary-hover);
+        border-color: var(--secondary-focus);
+      }
+      &:focus {
+        color: var(--secondary-contrast-hover);
+        background: var(--secondary-hover);
+        border-color: var(--secondary-hover);
+      }
+
+      &-color {
+        &:hover {
+          color: var(--secondary-contrast-hover);
+        }
+        &:focus {
+          color: var(--secondary-contrast-focus);
+        }
+      }
+
+      &-background {
+        &:hover {
+          background: var(--secondary-contrast-hover);
+        }
+        &:focus {
+          background: var(--secondary-contrast-hover);
+        }
+      }
+
+      &-border {
+        &:hover {
+          border-color: var(--secondary-contrast-hover);
+        }
+        &:hover {
+          border-color: var(--secondary-contrast-focus);
+        }
+      }
+    }
+  }
+
+  &.tertiary {
+    &:hover {
+      color: var(--tertiary-hover);
+      background: var(--tertiary-contrast-hover);
+      border-color: var(--tertiary-hover);
+    }
+    &:focus {
+      color: var(--tertiary-hover);
+      background: var(--tertiary-contrast-hover);
+      border-color: var(--tertiary-focus);
+    }
+
+    &-color {
+      &:hover {
+        color: var(--tertiary-hover);
+      }
+      &:focus {
+        color: var(--tertiary-focus);
+      }
+    }
+
+    &-background {
+      &:hover {
+        background: var(--tertiary-hover);
+      }
+      &:focus {
+        background: var(--tertiary-hover);
+      }
+    }
+
+    &-border {
+      &:hover {
+        border-color: var(--tertiary-hover);
+      }
+      &:focus {
+        border-color: var(--tertiary-hover);
+      }
+    }
+
+    &-contrast {
+      &:hover {
+        color: var(--tertiary-contrast-hover);
+        background: var(--tertiary-hover);
+        border-color: var(--tertiary-focus);
+      }
+      &:focus {
+        color: var(--tertiary-contrast-hover);
+        background: var(--tertiary-hover);
+        border-color: var(--tertiary-hover);
+      }
+
+      &-color {
+        &:hover {
+          color: var(--tertiary-contrast-hover);
+        }
+        &:focus {
+          color: var(--tertiary-contrast-focus);
+        }
+      }
+
+      &-background {
+        &:hover {
+          background: var(--tertiary-contrast-hover);
+        }
+        &:focus {
+          background: var(--tertiary-contrast-hover);
+        }
+      }
+
+      &-border {
+        &:hover {
+          border-color: var(--tertiary-contrast-hover);
+        }
+        &:hover {
+          border-color: var(--tertiary-contrast-focus);
+        }
+      }
+    }
+  }
+
+  &.quaternary {
+    &:hover {
+      color: var(--quaternary-hover);
+      background: var(--quaternary-contrast-hover);
+      border-color: var(--quaternary-hover);
+    }
+    &:focus {
+      color: var(--quaternary-hover);
+      background: var(--quaternary-contrast-hover);
+      border-color: var(--quaternary-focus);
+    }
+
+    &-color {
+      &:hover {
+        color: var(--quaternary-hover);
+      }
+      &:focus {
+        color: var(--quaternary-focus);
+      }
+    }
+
+    &-background {
+      &:hover {
+        background: var(--quaternary-hover);
+      }
+      &:focus {
+        background: var(--quaternary-hover);
+      }
+    }
+
+    &-border {
+      &:hover {
+        border-color: var(--quaternary-hover);
+      }
+      &:focus {
+        border-color: var(--quaternary-hover);
+      }
+    }
+
+    &-contrast {
+      &:hover {
+        color: var(--quaternary-contrast-hover);
+        background: var(--quaternary-hover);
+        border-color: var(--quaternary-focus);
+      }
+      &:focus {
+        color: var(--quaternary-contrast-hover);
+        background: var(--quaternary-hover);
+        border-color: var(--quaternary-hover);
+      }
+
+      &-color {
+        &:hover {
+          color: var(--quaternary-contrast-hover);
+        }
+        &:focus {
+          color: var(--quaternary-contrast-focus);
+        }
+      }
+
+      &-background {
+        &:hover {
+          background: var(--quaternary-contrast-hover);
+        }
+        &:focus {
+          background: var(--quaternary-contrast-hover);
+        }
+      }
+
+      &-border {
+        &:hover {
+          border-color: var(--quaternary-contrast-hover);
+        }
+        &:hover {
+          border-color: var(--quaternary-contrast-focus);
+        }
+      }
+    }
+  }
+
+  &.quinary {
+    &:hover {
+      color: var(--quinary-hover);
+      background: var(--quinary-contrast-hover);
+      border-color: var(--quinary-hover);
+    }
+    &:focus {
+      color: var(--quinary-focus);
+      background: var(--quinary-contrast-focus);
+      border-color: var(--quinary-focus);
+    }
+
+    &-color {
+      &:hover {
+        color: var(--quinary-hover);
+      }
+      &:focus {
+        color: var(--quinary-focus);
+      }
+    }
+
+    &-background {
+      &:hover {
+        background: var(--quinary-hover);
+      }
+      &:focus {
+        background: var(--quinary-focus);
+      }
+    }
+
+    &-border {
+      &:hover {
+        border-color: var(--quinary-hover);
+      }
+      &:focus {
+        border-color: var(--quinary-focus);
+      }
+    }
+
+    &-contrast {
+      &:hover {
+        color: var(--quinary-contrast-hover);
+        background: var(--quinary-hover);
+        border-color: var(--quinary-focus);
+      }
+      &:focus {
+        color: var(--quinary-contrast-focus);
+        background: var(--quinary-focus);
+        border-color: var(--quinary-focus);
+      }
+
+      &-color {
+        &:hover {
+          color: var(--quinary-contrast-hover);
+        }
+        &:focus {
+          color: var(--quinary-contrast-focus);
+        }
+      }
+
+      &-background {
+        &:hover {
+          background: var(--quinary-contrast-hover);
+        }
+        &:focus {
+          background: var(--quinary-contrast-hover);
+        }
+      }
+
+      &-border {
+        &:hover {
+          border-color: var(--quinary-contrast-hover);
+        }
+        &:hover {
+          border-color: var(--quinary-contrast-focus);
+        }
+      }
+    }
+  }
+}

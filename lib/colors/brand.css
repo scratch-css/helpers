@@ -1,25 +1,35 @@
 .primary {
   color: var(--primary);
   background: var(--primary-contrast);
-
-  &-contrast {
-    color: var(--primary-contrast);
-    background: var(--primary);
-  }
+  border-color: var(--primary);
 
   &-color {
     color: var(--primary);
-
-    &-contrast {
-      color: var(--primary-contrast);
-    }
   }
 
   &-background {
     background: var(--primary);
+  }
 
-    &-contrast {
+  &-border {
+    border-color: var(--primary);
+  }
+
+  &-contrast {
+    color: var(--primary-contrast);
+    background: var(--primary);
+    border-color: var(--primary);
+
+    &-color {
+      color: var(--primary-contrast);
+    }
+
+    &-background {
       background: var(--primary-contrast);
+    }
+
+    &-border {
+      border-color: var(--primary-contrast);
     }
   }
 }
@@ -27,25 +37,35 @@
 .secondary {
   color: var(--secondary);
   background: var(--secondary-contrast);
-
-  &-contrast {
-    color: var(--secondary-contrast);
-    background: var(--secondary);
-  }
+  border-color: var(--secondary);
 
   &-color {
     color: var(--secondary);
-
-    &-contrast {
-      color: var(--secondary-contrast);
-    }
   }
 
   &-background {
     background: var(--secondary);
+  }
 
-    &-contrast {
+  &-border {
+    border-color: var(--secondary);
+  }
+
+  &-contrast {
+    color: var(--secondary-contrast);
+    background: var(--secondary);
+    border-color: var(--secondary);
+
+    &-color {
+      color: var(--secondary-contrast);
+    }
+
+    &-background {
       background: var(--secondary-contrast);
+    }
+
+    &-border {
+      border-color: var(--secondary-contrast);
     }
   }
 }
@@ -53,25 +73,35 @@
 .tertiary {
   color: var(--tertiary);
   background: var(--tertiary-contrast);
-
-  &-contrast {
-    color: var(--tertiary-contrast);
-    background: var(--tertiary);
-  }
+  border-color: var(--tertiary);
 
   &-color {
     color: var(--tertiary);
-
-    &-contrast {
-      color: var(--tertiary-contrast);
-    }
   }
 
   &-background {
     background: var(--tertiary);
+  }
 
-    &-contrast {
+  &-border {
+    border-color: var(--tertiary);
+  }
+
+  &-contrast {
+    color: var(--tertiary-contrast);
+    background: var(--tertiary);
+    border-color: var(--tertiary);
+
+    &-color {
+      color: var(--tertiary-contrast);
+    }
+
+    &-background {
       background: var(--tertiary-contrast);
+    }
+
+    &-border {
+      border-color: var(--tertiary-contrast);
     }
   }
 }
@@ -79,25 +109,35 @@
 .quaternary {
   color: var(--quaternary);
   background: var(--quaternary-contrast);
-
-  &-contrast {
-    color: var(--quaternary-contrast);
-    background: var(--quaternary);
-  }
+  border-color: var(--quaternary);
 
   &-color {
     color: var(--quaternary);
-
-    &-contrast {
-      color: var(--quaternary-contrast);
-    }
   }
 
   &-background {
     background: var(--quaternary);
+  }
 
-    &-contrast {
+  &-border {
+    border-color: var(--quaternary);
+  }
+
+  &-contrast {
+    color: var(--quaternary-contrast);
+    background: var(--quaternary);
+    border-color: var(--quaternary);
+
+    &-color {
+      color: var(--quaternary-contrast);
+    }
+
+    &-background {
       background: var(--quaternary-contrast);
+    }
+
+    &-border {
+      border-color: var(--quaternary-contrast);
     }
   }
 }
@@ -105,25 +145,35 @@
 .quinary {
   color: var(--quinary);
   background: var(--quinary-contrast);
-
-  &-contrast {
-    color: var(--quinary-contrast);
-    background: var(--quinary);
-  }
+  border-color: var(--quinary);
 
   &-color {
     color: var(--quinary);
-
-    &-contrast {
-      color: var(--quinary-contrast);
-    }
   }
 
   &-background {
     background: var(--quinary);
+  }
 
-    &-contrast {
+  &-border {
+    border-color: var(--quinary);
+  }
+
+  &-contrast {
+    color: var(--quinary-contrast);
+    background: var(--quinary);
+    border-color: var(--quinary);
+
+    &-color {
+      color: var(--quinary-contrast);
+    }
+
+    &-background {
       background: var(--quinary-contrast);
+    }
+
+    &-border {
+      border-color: var(--quinary-contrast);
     }
   }
 }
