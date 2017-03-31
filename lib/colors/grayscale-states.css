@@ -1,4 +1,4 @@
-.interactive {
+.interactive:not(:disabled) {
   &.white {
     color: var(--softgray);
     background: white;

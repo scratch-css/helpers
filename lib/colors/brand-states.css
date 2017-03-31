@@ -1,4 +1,4 @@
-.interactive {
+.interactive:not(:disabled) {
   &.primary {
     &:hover {
       color: var(--primary-hover);
