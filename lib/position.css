@@ -11,3 +11,27 @@
     position: static;
   }
 }
+
+.position {
+  &-center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate3d(-50%, -50%, 0);
+    font-smoothing: subpixel-antialiased;
+
+    &-y {
+      position: absolute;
+      top: 50%;
+      transform: translate3d(0, -50%, 0);
+      font-smoothing: subpixel-antialiased;
+    }
+
+    &-x {
+      position: absolute;
+      left: 50%;
+      transform: translate3d(-50%, 0, 0);
+      font-smoothing: subpixel-antialiased;
+    }
+  }
+}
