@@ -1,103 +1,71 @@
-.color-success {
-  color: var(--success);
-  background: var(--success-contrast);
-
-  &-inverse {
-    color: var(--success-contrast);
-    background: var(--success);
-  }
+.ui.state-success {
+  color: var(--success-contrast);
+  background: var(--success);
+  border: var(--success-border);
 
   &-color {
     color: var(--success);
-
-    &-contrast {
-      color: var(--success);
-    }
   }
 
   &-background {
     background: var(--success);
+  }
 
-    &-contrast {
-      background: var(--success);
-    }
+  &-border {
+    border-color: var(--success);
   }
 }
 
-.color-info {
-  color: var(--info);
-  background: var(--info-contrast);
-
-  &-inverse {
-    color: var(--info-contrast);
-    background: var(--info);
-  }
+.ui.state-info {
+  color: var(--info-contrast);
+  background: var(--info);
+  border: var(--info-border);
 
   &-color {
     color: var(--info);
-
-    &-contrast {
-      color: var(--info);
-    }
   }
 
   &-background {
     background: var(--info);
+  }
 
-    &-contrast {
-      background: var(--info);
-    }
+  &-border {
+    border-color: var(--info);
   }
 }
 
-.color-warning {
-  color: var(--warning);
-  background: var(--warning-contrast);
-
-  &-inverse {
-    color: var(--warning-contrast);
-    background: var(--warning);
-  }
+.ui.state-warning {
+  color: var(--warning-contrast);
+  background: var(--warning);
+  border: var(--warning-border);
 
   &-color {
     color: var(--warning);
-
-    &-contrast {
-      color: var(--warning);
-    }
   }
 
   &-background {
     background: var(--warning);
+  }
 
-    &-contrast {
-      background: var(--warning);
-    }
+  &-border {
+    border-color: var(--warning);
   }
 }
 
-.color-error {
-  color: var(--error);
-  background: var(--error-contrast);
-
-  &-inverse {
-    color: var(--error-contrast);
-    background: var(--error);
-  }
+.ui.state-error {
+  color: var(--error-contrast);
+  background: var(--error);
+  border: var(--error-border);
 
   &-color {
     color: var(--error);
-
-    &-contrast {
-      color: var(--error);
-    }
   }
 
   &-background {
     background: var(--error);
+  }
 
-    &-contrast {
-      background: var(--error);
-    }
+  &-border {
+    border-color: var(--error);
   }
 }
