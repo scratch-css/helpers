@@ -1,5 +1,5 @@
 # Scratch Helpers
-Helper classes for scratch framework. They use Scratch as a base. It's purpose of using is to write them inline in HTML for just easy markup. 
+Helper classes for scratch framework. They use Scratch as a base. It's purpose of using is to write them inline in HTML for just easy markup.
 
 [![Gitter](https://img.shields.io/gitter/room/nwjs/nw.js.svg)](https://gitter.im/scratch-css/helpers)
 [![npm (scoped)](https://img.shields.io/npm/v/@nikoloza/scratch-helpers.svg)](https://www.npmjs.com/package/@nikoloza/scratch-helpers)
@@ -88,12 +88,15 @@ Also, families can be divided by type, as they may have `serif`, `sans-serif` or
 - `.font-size-h10`
 
 #### Font weight
-- `.font-slim`
+- `.font-thin`
+- `.font-extralight`
 - `.font-light`
 - `.font-regular`
+- `.font-medium`
 - `.font-semibold`
 - `.font-bold`
 - `.font-extrabold`
+- `.font-black`
 
 #### Text transform
 - `.text-transform-reset`
