@@ -88,6 +88,20 @@
         border-color: var(--secondary-border-focus);
       }
     }
+
+    &-contrast {
+      &:hover {
+        color: var(--secondary-contrast-hover);
+        background: var(--secondary-hover);
+        border-color: var(--secondary-border-contrast-hover);
+      }
+      &:active,
+      &:focus {
+        color: var(--secondary-contrast-focus);
+        background: var(--secondary-focus);
+        border-color: var(--secondary-border-contrast-focus);
+      }
+    }
   }
 
   &.tertiary {

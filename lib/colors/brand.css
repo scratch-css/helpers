@@ -1,4 +1,4 @@
-.ui.primary {
+.ui:not(.only).primary {
   color: var(--primary);
   background: var(--primary-contrast);
   border-color: var(--primary-border);
@@ -14,9 +14,15 @@
   &-border {
     border-color: var(--primary-border);
   }
+
+  &-contrast {
+    color: var(--primary-contrast);
+    background: var(--primary);
+    border-color: var(--primary-border-contrast);
+  }
 }
 
-.ui.secondary {
+.ui:not(.only).secondary {
   color: var(--secondary);
   background: var(--secondary-contrast);
   border-color: var(--secondary-border);
@@ -32,9 +38,15 @@
   &-border {
     border-color: var(--secondary-border);
   }
+
+  &-contrast {
+    color: var(--secondary-contrast);
+    background: var(--secondary);
+    border-color: var(--secondary-border-contrast);
+  }
 }
 
-.ui.tertiary {
+.ui:not(.only).tertiary {
   color: var(--tertiary);
   background: var(--tertiary-contrast);
   border-color: var(--tertiary-border);
@@ -50,9 +62,15 @@
   &-border {
     border-color: var(--tertiary-border);
   }
+
+  &-contrast {
+    color: var(--tertiary-contrast);
+    background: var(--tertiary);
+    border-color: var(--tertiary-border-contrast);
+  }
 }
 
-.ui.quaternary {
+.ui:not(.only).quaternary {
   color: var(--quaternary);
   background: var(--quaternary-contrast);
   border-color: var(--quaternary-border);
@@ -68,9 +86,15 @@
   &-border {
     border-color: var(--quaternary-border);
   }
+
+  &-contrast {
+    color: var(--quaternary-contrast);
+    background: var(--quaternary);
+    border-color: var(--quaternary-border-contrast);
+  }
 }
 
-.ui.quinary {
+.ui:not(.only).quinary {
   color: var(--quinary);
   background: var(--quinary-contrast);
   border-color: var(--quinary-border);
@@ -85,5 +109,11 @@
 
   &-border {
     border-color: var(--quinary-border);
+  }
+
+  &-contrast {
+    color: var(--quinary-contrast);
+    background: var(--quinary);
+    border-color: var(--quinary-border-contrast);
   }
 }
