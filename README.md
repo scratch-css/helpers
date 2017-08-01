@@ -2,8 +2,8 @@
 Helper classes for scratch framework. They use Scratch as a base. It's purpose of using is to write them inline in HTML for just easy markup.
 
 [![Gitter](https://img.shields.io/gitter/room/nwjs/nw.js.svg)](https://gitter.im/scratch-css/helpers)
-[![npm (scoped)](https://img.shields.io/npm/v/@nikoloza/scratch-helpers.svg)](https://www.npmjs.com/package/@nikoloza/scratch-helpers)
-[![David](https://img.shields.io/david/scratch-css/helpers.svg)](https://www.npmjs.com/package/@nikoloza/scratch-helpers)
+[![npm (scoped)](https://img.shields.io/npm/v/@scratch-css/helpers.svg)](https://www.npmjs.com/package/@scratch-css/helpers)
+[![David](https://img.shields.io/david/scratch-css/helpers.svg)](https://www.npmjs.com/package/@scratch-css/helpers)
 
 ## API reference:
 
